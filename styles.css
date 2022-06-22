@@ -1,70 +1,85 @@
 body {
-background-color: black;
-
+  background-color: black;
 }
 
 .header {
-    grid-area: header;
-    text-align: center;
-    margin-top: 2%;
-    color: #fe651c;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase; 
-    font-size: 14px; 
-    word-spacing: 10%;
-    background-color: #313131;
+  grid-area: header;
+  text-align: center;
+  margin-top: 2%;
+  color: #fe651c;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  word-spacing: 10%;
+  background-color: #313131;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  border-radius: 5px;
+  margin-bottom: 0%;
 }
 
 .header:hover {
-    color: white;
+  color: white;
+
 }
 
 .navbar {
-display: flex;
-justify-content: space-evenly;
-margin: 0 10%;
-
-
-
-
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10%;
 }
 
-
 .main {
-    background-color: #313131;
-    padding-top: 8%;
-
+  background-color: #313131;
+  padding-top: 8%;
+  padding-bottom: 10%;
+  border-radius: 5px;
+  margin-top: 0%;
 }
 
 #pic {
-border-radius: 50%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 70%;
-border: 5px solid #fe651c;
-box-shadow: 0 0 35px 0 #fe651c;
-
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 5px solid #fe651c;
+  box-shadow: 0 0 35px 0 #fe651c;
 }
 
-
 .main h1 {
-    color: white;
-    font-family: 'Lato', sans-serif;
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .main h2 {
-    color: #fe651c;
-    font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #fe651c;
+  font-family: "Lato", sans-serif;
 }
 
 .main p {
-    font-family: 'Lato', sans-serif;
-
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 0 10%;
+  color: rgb(165, 164, 164);
 }
 
 .button {
+color: white;
+background-color: #fe651c;
+padding: 12px 15px 12px;
+font-family: "Lato", sans-serif;
+text-decoration: none;
+border-radius: 5px;
 
+
+
+}
+
+.button:hover {
+color: black;
 
 }
