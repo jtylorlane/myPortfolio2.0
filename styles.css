@@ -103,6 +103,7 @@ body {
   color: white;
   background-color: #313131;
   border: solid #fe651c;
+  box-shadow: 0 0 35px 0 #fe651c;
 }
 
 /* below, small screens, laptops */
