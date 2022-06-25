@@ -51,6 +51,14 @@ body {
   margin-bottom: 0%;
 }
 
+.main h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+
 #pic {
   border-radius: 50%;
   display: block;
@@ -59,14 +67,6 @@ body {
   width: 70%;
   border: 5px solid #fe651c;
   box-shadow: 0 0 35px 0 #fe651c;
-}
-
-.main h1 {
-  color: white;
-  font-family: "Lato", sans-serif;
-  text-align: center;
-  margin-top: 0%;
-  margin-bottom: 1%;
 }
 
 .main h2 {

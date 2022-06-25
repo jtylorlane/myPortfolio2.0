@@ -166,6 +166,14 @@
       margin-top: 0%;
     }
 
+    ul {
+      font-weight: bold;
+      color: #fe651c;
+      
+    }
+      
+
+
 
 
 /* below, small screens, laptops */
@@ -173,9 +181,24 @@
 @media (min-width: 769px) {
   .container {
     display: grid;
+    gap: 0px;
     grid-template-areas:
-      "header header header"
-      "main main main";
+      "header header"
+      "main main"
+      "topleft topright";
+  }
+
+  .main {
+      display: grid;
+      gap: 0px;
+      grid-template-areas:
+        "topleft topright";
+    }
+
+  }
+  body {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
   }
 
   .header {
@@ -227,20 +250,14 @@ padding-bottom: 5%;
    margin-left: 3%;
  }
 
-
-  body {
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-  }
-
 }
 
 @media (min-width: 1025px) {
   .container {
     display: grid;
     grid-template-areas:
-      "header header header"
-      "main main main";
+      "header header"
+      "main main";
   }
 
 
