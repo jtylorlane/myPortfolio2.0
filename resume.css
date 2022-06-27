@@ -195,19 +195,13 @@
     color: #ffffff;
   }
 
-  #zip {
-    margin-left: 15%;
-    font-family: 'Roboto', sans-serif;
-    color:  black;
-  }
-
   .vl {
     border-right: 1px solid black;
-    height: 128.3%;
+    height: 181.3%;
     position: absolute;
     left: 41.5%;
     margin-left: -3px;
-    bottom: -65%;
+    bottom: -119%;
     
   }
 
@@ -370,6 +364,18 @@ color:  black;
           "skills experience experience"
           "skills experience experience";
       }
+
+      .main {  display: grid;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "main main main"
+          "name name name"
+          "contact profile profile"
+          "education experience experience"
+          "skills experience experience"
+          "skills experience experience"
+          "skills experience experience";
+      }
   
     body {
       margin-left: 1%;
@@ -385,13 +391,175 @@ color:  black;
       padding-top: 0%;
       border-radius: 5px;
       margin-bottom: 0%;
-      margin-top: 1%;
+      margin-top: .7%;
+    }
+
+    .navbar {
+      padding-top: .5%;
+      padding-bottom: 5%;
     }
   
     .main {
       margin-bottom: 1%;
       padding-top: 3%;
+      margin-top: 0%;
+      padding-bottom: 10%;
+      margin-left: 0%;
+      padding-left: 0%;
     }
+
+    .name { 
+      padding-bottom: 0%;
+     }
+
+     .name h1 { 
+      font-size: 55px;
+    }
+
+    .name h2 { 
+      font-size: 18px;
+      padding-bottom: 3%;
+    }
+
+    .vl {
+      border-right: 1px solid black;
+      height: 190.3%;
+      position: absolute;
+      left: 34%;
+      margin-left: -3px;
+      bottom: -200%;
+      
+    }
+
+    
+    .contact { 
+      /* margin-left: 20%; */
+      margin-right: 0%;
+      text-align: left;
+      padding-left: 30%;
+      padding-right: 0%;
+      margin-left: 0%;
+     }
+
+     .contact h2 {
+       text-align: center;
+       font-size: 20px;
+       padding-bottom: 8%;
+
+     }
+
+     .contact p {
+        font-size: 18px;
+        
+       
+        
+
+     }
+
+
+     .fa {
+       margin-left: 0%;
+       padding-right: 5%;
+       
+       
+     }
+
+     
+
+     
+
+    .profile { 
+      margin-left: 20%;
+      text-align: left;
+    }
+
+    .profile p {
+      font-size: 18px;
+    }
+
+    .profile h2 {
+      text-align: center;
+      font-size: 20px;
+      padding-bottom: 1%;
+    }
+
+    .education {
+      text-align: left;
+
+    }
+
+    
+
+    .education h2 {
+      text-align: center;
+      font-size: 20px;
+      padding-bottom: 8%;
+    }
+
+    .education h4 {
+      /* text-align: center; */
+      font-size: 20px;
+      /* margin-left: 90%; */
+      margin-left: 25%;
+    }
+
+    .education p {
+      margin-left: 25%;
+      font-size: 18px;
+
+    }
+
+    .skills { 
+      margin-left: 15%;
+     }
+
+     .skills p {
+      font-size: 18px;
+      margin-left: 15%;
+    }
+
+    .skills h2 {
+      text-align: center;
+      font-size: 20px;
+      padding-bottom: 8%;
+    }
+
+    .skillslists {
+      font-size: 18px;
+      line-height: 200%;
+    }
+
+    .experience { 
+      margin-left: 20%;
+      text-align: left;
+      padding-top: 1%;
+    }
+
+    .experience p {
+      font-size: 18px;
+    }
+
+    .experience h2 {
+      text-align: center;
+      font-size: 20px;
+      margin-left: 0%;
+      padding-bottom: 1%;
+    }
+
+    .experience h4 {
+      font-size: 22px;
+      margin-left: 25%;
+    }
+
+    .line-height {
+      font-size: 20px;
+      margin-left: 0%;
+
+    }
+    .lists {
+      font-size: 18px;
+    }
+
 }
 
 
@@ -406,6 +574,18 @@ color:  black;
         grid-auto-flow: row;
         grid-template-areas:
           "header header header"
+          "main main main"
+          "name name name"
+          "contact profile profile"
+          "education experience experience"
+          "skills experience experience"
+          "skills experience experience"
+          "skills experience experience";
+      }
+
+      .main {  display: grid;
+        grid-auto-flow: row;
+        grid-template-areas:
           "main main main"
           "name name name"
           "contact profile profile"
@@ -430,5 +610,15 @@ color:  black;
     .main {
       margin-top: 0.5%;
       padding-bottom: 5%;
+    }
+
+    .vl {
+      border-right: 1px solid black;
+      height: 160.3%;
+      position: absolute;
+      left: 30%;
+      margin-left: -3px;
+      bottom: -100%;
+      
     }
 }
