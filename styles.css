@@ -38,7 +38,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 10%;
+  margin: 0%;
 }
 
 .main {
