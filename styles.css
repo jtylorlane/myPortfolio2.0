@@ -21,8 +21,8 @@ body {
   text-decoration: none;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  font-size: 12px;
-  word-spacing: 15%;
+  font-size: 8px;
+  word-spacing: ;
   background-color: #313131;
   padding-bottom: 3%;
   padding-top: 2%;
@@ -35,11 +35,11 @@ body {
 
 }
 
-.navbar {
+ .navbar {
   display: flex;
   justify-content: space-evenly;
-  margin: 0%;
-}
+  
+} 
 
 .main {
   grid-area: main;
