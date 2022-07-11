@@ -28,26 +28,25 @@ body {
     text-decoration: none;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    font-size: 16px;
-    word-spacing: 10%;
+    font-size: 8px;
+    word-spacing: ;
     background-color: #313131;
-    padding-bottom: 1.5%;
-    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-top: 2%;
     border-radius: 5px;
     margin-bottom: 0%;
   }
   
   .header:hover {
     color: white;
+  
   }
   
-  .navbar {
+   .navbar {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 10%;
-    padding-top: 1.4%;
-    padding-bottom: 2.2%;
-  }
+    
+  } 
   
   .main {
     grid-area: main;
